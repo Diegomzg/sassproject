@@ -147,11 +147,13 @@ header h1 {
   color: #4a47a3;
   font-size: 1.3em;
   margin: 5%;
+  text-align: center;
 }
 #content #principal form .register {
   font-family: "Baloo";
   height: 7vh;
   font-size: 1.3em;
+  text-align: center;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
@@ -172,6 +174,10 @@ header h1 {
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 5%;
   border-radius: 2vh;
+  cursor: pointer;
+}
+#content #principal form #button:hover {
+  cursor: pointer;
 }
 #content h2 {
   font-family: "josefin";
